@@ -60,7 +60,7 @@ class hltv {
     curl_close($ch);
 
     if ($s) {
-      echo $s;
+      return $s;
     }
   }
 }
